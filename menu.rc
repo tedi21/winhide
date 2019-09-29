@@ -1,0 +1,22 @@
+#include <windows.h>
+#include "resource.h"
+
+IDI_ICON1 ICON "sign_1.ico"
+IDI_ICON2 ICON "sign_2.ico"
+IDI_ICON3 ICON "sign_3.ico"
+IDI_ICON4 ICON "sign_4.ico"
+IDI_ENABLE_ICON1 ICON "enable_sign_1.ico"
+IDI_ENABLE_ICON2 ICON "enable_sign_2.ico"
+IDI_ENABLE_ICON3 ICON "enable_sign_3.ico"
+IDI_ENABLE_ICON4 ICON "enable_sign_4.ico"
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+  		MENUITEM "Quitter",                       		IDM_QUIT
+    END
+END
+
+
+
